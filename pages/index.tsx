@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Index = () => {
-  return <div>init</div>;
-};
+const Index = () => <div>init</div>;
 
 export default Index;
