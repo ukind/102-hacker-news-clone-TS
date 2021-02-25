@@ -1,8 +1,10 @@
 dependencies:
+  isomorphic-fetch: 3.0.0
   next: 10.0.7_24b12e544cf6ca996debdbfad8b93c93
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
+  '@types/isomorphic-fetch': 0.0.35
   '@types/node': 14.14.31
   '@types/react': 17.0.2
   '@types/react-dom': 17.0.1
@@ -166,6 +168,10 @@ packages:
       node: '>=8.0.0'
     resolution:
       integrity: sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
+  /@types/isomorphic-fetch/0.0.35:
+    dev: true
+    resolution:
+      integrity: sha512-DaZNUvLDCAnCTjgwxgiL1eQdxIKEpNLOlTNtAgnZc50bG2copGhRrFN9/PxPBuJe+tZVLCbQ7ls0xveXVRPkvw==
   /@types/json-schema/7.0.7:
     dev: true
     resolution:
@@ -1855,6 +1861,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk=
+  /isomorphic-fetch/3.0.0:
+    dependencies:
+      node-fetch: 2.6.1
+      whatwg-fetch: 3.6.1
+    dev: false
+    resolution:
+      integrity: sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==
   /jest-worker/24.9.0:
     dependencies:
       merge-stream: 2.0.0
@@ -3428,6 +3441,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
+  /whatwg-fetch/3.6.1:
+    dev: false
+    resolution:
+      integrity: sha512-IEmN/ZfmMw6G1hgZpVd0LuZXOQDisrMOZrzYd5x3RAK4bMPlJohKUZWZ9t/QsTvH0dV9TbPDcc2OSuIDcihnHA==
   /whatwg-url/7.1.0:
     dependencies:
       lodash.sortby: 4.7.0
@@ -3482,6 +3499,7 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
+  '@types/isomorphic-fetch': ^0.0.35
   '@types/node': ^14.14.31
   '@types/react': ^17.0.2
   '@types/react-dom': ^17.0.1
@@ -3494,6 +3512,7 @@ specifiers:
   eslint-plugin-jsx-a11y: ^6.4.1
   eslint-plugin-react: ^7.22.0
   eslint-plugin-react-hooks: ^4.2.0
+  isomorphic-fetch: ^3.0.0
   next: ^10.0.7
   react: ^17.0.1
   react-dom: ^17.0.1
